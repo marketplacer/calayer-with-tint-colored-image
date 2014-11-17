@@ -14,6 +14,9 @@
 		2B04391A1A197A9E00036EE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0439181A197A9E00036EE6 /* LaunchScreen.xib */; };
 		2B0439261A197A9E00036EE6 /* calayer_with_tint_colored_imageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0439251A197A9E00036EE6 /* calayer_with_tint_colored_imageTests.swift */; };
 		2B0439301A197AC100036EE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B04392F1A197AC100036EE6 /* Default-568h@2x.png */; };
+		2B0439341A197BE000036EE6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0439331A197BE000036EE6 /* star.png */; };
+		2B0439371A197BEF00036EE6 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0439351A197BEF00036EE6 /* star@2x.png */; };
+		2B0439381A197BEF00036EE6 /* star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0439361A197BEF00036EE6 /* star@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		2B0439241A197A9E00036EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B0439251A197A9E00036EE6 /* calayer_with_tint_colored_imageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calayer_with_tint_colored_imageTests.swift; sourceTree = "<group>"; };
 		2B04392F1A197AC100036EE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B0439331A197BE000036EE6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = graphics/star.png; sourceTree = "<group>"; };
+		2B0439351A197BEF00036EE6 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star@2x.png"; path = "graphics/star@2x.png"; sourceTree = "<group>"; };
+		2B0439361A197BEF00036EE6 /* star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star@3x.png"; path = "graphics/star@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		2B04390C1A197A9E00036EE6 /* calayer-with-tint-colored-image */ = {
 			isa = PBXGroup;
 			children = (
+				2B0439311A197BBA00036EE6 /* images */,
 				2B04390F1A197A9E00036EE6 /* AppDelegate.swift */,
 				2B0439111A197A9E00036EE6 /* ViewController.swift */,
 				2B0439131A197A9E00036EE6 /* Main.storyboard */,
@@ -113,6 +120,24 @@
 				2B0439241A197A9E00036EE6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B0439311A197BBA00036EE6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B0439321A197BD300036EE6 /* star */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		2B0439321A197BD300036EE6 /* star */ = {
+			isa = PBXGroup;
+			children = (
+				2B0439331A197BE000036EE6 /* star.png */,
+				2B0439351A197BEF00036EE6 /* star@2x.png */,
+				2B0439361A197BEF00036EE6 /* star@3x.png */,
+			);
+			name = star;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B0439371A197BEF00036EE6 /* star@2x.png in Resources */,
 				2B0439151A197A9E00036EE6 /* Main.storyboard in Resources */,
+				2B0439341A197BE000036EE6 /* star.png in Resources */,
+				2B0439381A197BEF00036EE6 /* star@3x.png in Resources */,
 				2B0439301A197AC100036EE6 /* Default-568h@2x.png in Resources */,
 				2B04391A1A197A9E00036EE6 /* LaunchScreen.xib in Resources */,
 				2B0439171A197A9E00036EE6 /* Images.xcassets in Resources */,
