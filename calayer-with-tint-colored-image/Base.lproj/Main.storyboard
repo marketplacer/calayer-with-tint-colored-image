@@ -30,14 +30,16 @@
                                     <constraint firstAttribute="width" constant="120" id="dvb-ar-9Mz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALayer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-bk-elT">
-                                <rect key="frame" x="269" y="266" width="63" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-bk-elT">
+                                <rect key="frame" x="195" y="266" width="210" height="41"/>
+                                <string key="text">CALayer
+How to show tint color here?</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OWL-9Z-Jo0">
-                                <rect key="frame" x="240" y="294" width="120" height="120"/>
+                                <rect key="frame" x="240" y="315" width="120" height="120"/>
                                 <color key="backgroundColor" red="0.44773638249999997" green="1" blue="0.46942728760000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="6S5-aw-m7d"/>
