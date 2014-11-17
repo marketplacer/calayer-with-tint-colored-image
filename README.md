@@ -1,6 +1,6 @@
 # Overview
 
-This is an iOS demo that shows how to make images drawn with tint color.
+This is an iOS demo that shows how to draw images with tint color.
 
 It shows two images: one for UIImageView and the other one in CALayer.
 The UIImageView  shows tint color, while the CALayer does not.
